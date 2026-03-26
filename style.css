@@ -8,7 +8,7 @@ body {
     main {
             padding: 20px;
     }
- }
+}
 
 /* LARGE */
 @media (min-width: 992px) {
@@ -19,3 +19,9 @@ body {
 }
 
 /* XL */
+@media (min-width: 1200px) {
+    main {
+        max-width: 1000px;
+        margin: auto;
+    }
+}
