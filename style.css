@@ -3,3 +3,11 @@ body {
     font-family: Arial, sans-serif;
 }
 
+/* MEDIUM */
+    @media (min-width: 600px) {
+        main {
+            padding: 20px;
+        }
+    }
+
+    
