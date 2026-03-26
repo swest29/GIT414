@@ -3,6 +3,27 @@ body {
     font-family: Arial, sans-serif;
 }
 
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+main {
+    padding: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+}
+
 /* MEDIUM */
 @media (min-width: 600px) {
     main {
@@ -13,9 +34,7 @@ body {
 /* LARGE */
 @media (min-width: 992px) {
     nav ul {
-        list-style: none;
-        margin: 0;
-        padding: 0;
+        justify-content: center;
     }
 }
 
